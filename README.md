@@ -1,12 +1,11 @@
-
 # Projet SDD1004 – Détection de Voitures avec YOLOv8 (Streamlit)
 
-## 🎓 Informations Générales
+## Informations Générales
 - **Auteur :** Abdoul Daouda Faye
 - **Cours :** SDD1004 – Sciences des Données et Applications
 - **Université :** Université du Québec à Trois-Rivières (UQTR)
 
-## 🚀 Description
+## Description
 Cette application Streamlit permet de détecter automatiquement les **voitures** dans une image grâce au modèle **YOLOv8** préentraîné. L’interface est simple et efficace :
 
 - Téléversement d’image (formats supportés : `.jpg`, `.jpeg`, `.png`)
@@ -15,7 +14,7 @@ Cette application Streamlit permet de détecter automatiquement les **voitures**
 - Téléchargement de l’image annotée
 - Graphe camembert avec la répartition des classes détectées
 
-## 📁 Contenu de l'archive
+## Contenu de l'archive
 
 ```
 YOLO8_VOITURE_STREAMLIT/
@@ -25,7 +24,7 @@ YOLO8_VOITURE_STREAMLIT/
 └── images/              # Dossier contenant les images de test
 ```
 
-## ▶️ Instructions d'exécution
+## Instructions d'exécution
 
 1. Crée un environnement virtuel :
    ```
@@ -52,15 +51,14 @@ YOLO8_VOITURE_STREAMLIT/
    streamlit run app.py
    ```
 
-## 📌 Remarques importantes
+## Remarques importantes
 - Le fichier `best.pt` (modèle YOLOv8) **ne doit pas être inclus dans l'archive .zip**.
 - Le modèle doit être placé localement dans le même dossier que `app.py` avant exécution.
 - Le dossier `images/` contient des exemples d'images pour faciliter les tests.
 
-## ✅ Fonctionnalités couvertes
-- ✅ Téléversement d'image
-- ✅ Détection avec YOLOv8
-- ✅ Visualisation et téléchargement de l’image annotée
-- ✅ Tableau des détections
-- ✅ Graphe de répartition des classes détectées
-
+## Fonctionnalités couvertes
+- Téléversement d'image
+- Détection avec YOLOv8
+- Visualisation et téléchargement de l’image annotée
+- Tableau des détections
+- Graphe de répartition des classes détectées
